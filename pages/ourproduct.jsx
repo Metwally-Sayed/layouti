@@ -1,8 +1,8 @@
 import { Inter } from 'next/font/google';
-import Layout from '@/components/Layout';
-import Card from '@/components/Card';
+import Layout from '../components/Layout';
+import Card from '../components/Card';
 import { useState } from 'react';
-import Button from '@/components/Button';
+import Button from '../components/Button';
 
 const Ourproduct = () => {
   const [cardData, setCardData] = useState([

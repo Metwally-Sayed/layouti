@@ -4,8 +4,7 @@ import { MdOutlineDragIndicator } from 'react-icons/md';
 import { RiArrowUpSLine } from 'react-icons/ri';
 import { RiArrowDownSLine } from 'react-icons/ri';
 import { AiFillDelete } from 'react-icons/ai';
-import Button from './Button';
-import Toggle from './Toggle';
+
 
 const Card = ({ cardData, newDataCollecter, setCardData }) => {
   const [selected, setSelected] = useState(null);
@@ -60,7 +59,6 @@ const Card = ({ cardData, newDataCollecter, setCardData }) => {
                   <MdOutlineDragIndicator size={25} />
                 </div>
                 <div className="px-2 flex items-center justify-center h-full">
-                  {/* <Toggle /> */}
                 </div>{' '}
                 <div className=" px-2 text-base font-semibold flex items-center justify-center h-full">
                   {item.websiteNameENG}

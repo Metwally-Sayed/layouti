@@ -1,4 +1,4 @@
-import Layout from '@/components/Layout';
+import Layout from '../components/Layout';
 import React, { useState } from 'react';
 
 const Layouti = () => {
