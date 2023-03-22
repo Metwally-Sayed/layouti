@@ -7,6 +7,12 @@
   min-height: 100vh;
 }
 
+input[type='file'] {
+  opacity: 0;
+  z-index: -1;
+  position: absolute;
+}
+
 .description {
   display: inherit;
   justify-content: inherit;
