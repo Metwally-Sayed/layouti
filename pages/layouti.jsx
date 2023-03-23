@@ -39,7 +39,7 @@ const Layouti = () => {
                 <input
                   // onChange={(e) => imageHandler(e)}
                   type="file"
-                  className="block w-full min-w-0 flex-1 border-0 py-1.5 px-1.5 text-gray-900 ring-1 ring-inset ring-gray-300  sm:text-sm sm:leading-6"
+                  className="block w-full min-w-0 flex-1 border-0 py-1.5 px-1.5 text-gray-900 ring-1 ring-inset ring-gray-300  sm:text-sm sm:leading-6 h-[40px]"
                 />
               </div>
             </div>
@@ -51,7 +51,7 @@ const Layouti = () => {
               <input
                 defaultValue={formData.websiteName_ENG}
                 // onChange={(e) => websiteEngHandler(e)}
-                className="w-full h-9 border-solid border-2 border-white-600 p-2"
+                className="w-full border-solid border-2 border-white-600 p-2 h-[40px]"
                 type="text"
               />
             </div>
@@ -60,7 +60,7 @@ const Layouti = () => {
               <input
                 // onChange={(e) => websiteArHandler(e)}
                 // defaultValue={data.websiteNameAR}
-                className="w-full h-9 border-solid border-2 border-white-600 p-2"
+                className="w-full h-9 border-solid border-2 border-white-600 p-2 h-[40px]"
                 type="text"
               />
             </div>
@@ -71,7 +71,7 @@ const Layouti = () => {
               <input
                 defaultValue={formData.slogen_ENG}
                 // onChange={(e) => websiteEngHandler(e)}
-                className="w-full h-9 border-solid border-2 border-white-600 p-2"
+                className="w-full border-solid border-2 border-white-600 p-2 h-[40px]"
                 type="text"
               />
             </div>
@@ -80,7 +80,7 @@ const Layouti = () => {
               <input
                 // onChange={(e) => websiteArHandler(e)}
                 // defaultValue={data.websiteNameAR}
-                className="w-full h-9 border-solid border-2 border-white-600 p-2"
+                className="w-full border-solid border-2 border-white-600 p-2 h-[40px]"
                 type="text"
               />
             </div>
@@ -112,7 +112,7 @@ const Layouti = () => {
                 defaultValue={formData.copyWrite_ENG}
                 // onChange={(e) => websiteEngHandler(e)}
                 // value={data.websiteNameENG}
-                className="w-full h-9 border-solid border-2 border-white-600 p-2"
+                className="w-full h-[40px] border-solid border-2 border-white-600 p-2"
                 type="text"
               />
             </div>
@@ -121,7 +121,7 @@ const Layouti = () => {
               <input
                 // onChange={(e) => websiteArHandler(e)}
                 defaultValue={formData.copyWrite_AR}
-                className="w-full h-9 border-solid border-2 border-white-600 p-2"
+                className="w-full h-[40px] border-solid border-2 border-white-600 p-2"
                 type="text"
               />
             </div>
@@ -133,7 +133,7 @@ const Layouti = () => {
                 defaultValue={formData.createdby_ENG}
                 // onChange={(e) => websiteEngHandler(e)}
                 // value={data.websiteNameENG}
-                className="w-full h-9 border-solid border-2 border-white-600 p-2"
+                className="w-full h-[40px] border-solid border-2 border-white-600 p-2"
                 type="text"
               />
             </div>
@@ -142,7 +142,7 @@ const Layouti = () => {
               <input
                 // onChange={(e) => websiteArHandler(e)}
                 defaultValue={formData.createdby_AR}
-                className="w-full h-9 border-solid border-2 border-white-600 p-2"
+                className="w-full h-[40px] border-solid border-2 border-white-600 p-2"
                 type="text"
               />
             </div>
@@ -154,7 +154,7 @@ const Layouti = () => {
                 defaultValue={formData.title_ENG}
                 // onChange={(e) => websiteEngHandler(e)}
                 // value={data.websiteNameENG}
-                className="w-full h-9 border-solid border-2 border-white-600 p-2"
+                className="w-full h-[40px] border-solid border-2 border-white-600 p-2"
                 type="text"
               />
             </div>
@@ -163,7 +163,7 @@ const Layouti = () => {
               <input
                 // onChange={(e) => websiteArHandler(e)}
                 defaultValue={formData.title_AR}
-                className="w-full h-9 border-solid border-2 border-white-600 p-2"
+                className="w-full h-[40px] border-solid border-2 border-white-600 p-2"
                 type="text"
               />
             </div>

@@ -7,3 +7,22 @@ input[type='file']::-webkit-file-upload-button {
   z-index: -1;
   position: absolute;
 }
+
+input[type='color'] {
+  height: 40px;
+  width: 100%;
+  border: none;
+  outline: none;
+  -webkit-appearance: none;
+  background-color: white;
+
+}
+
+input[type='color']::-webkit-color-swatch-wrapper {
+  padding: 0;
+  display: hidden !important;
+}
+input[type='color']::-webkit-color-swatch {
+  display: hidden !important;
+  visibility: hidden;
+}

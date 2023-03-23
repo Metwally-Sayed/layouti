@@ -5,7 +5,6 @@ import { RiArrowUpSLine } from 'react-icons/ri';
 import { RiArrowDownSLine } from 'react-icons/ri';
 import { AiFillDelete } from 'react-icons/ai';
 
-
 const Card = ({ cardData, newDataCollecter, setCardData }) => {
   const [selected, setSelected] = useState(null);
   const [addNewData, setAddNewData] = useState({
@@ -58,8 +57,7 @@ const Card = ({ cardData, newDataCollecter, setCardData }) => {
                 <div>
                   <MdOutlineDragIndicator size={25} />
                 </div>
-                <div className="px-2 flex items-center justify-center h-full">
-                </div>{' '}
+                <div className="px-2 flex items-center justify-center h-full"></div>{' '}
                 <div className=" px-2 text-base font-semibold flex items-center justify-center h-full">
                   {item.websiteNameENG}
                 </div>
@@ -76,7 +74,7 @@ const Card = ({ cardData, newDataCollecter, setCardData }) => {
                 <div className="flex flex-col justify-center w-full  ">
                   <label className="py-1">Link</label>
                   <input
-                    className="w-full h-9 border-solid border-2 border-white-600 p-2"
+                    className="w-full h-[40px] border-solid border-2 border-white-600 px-2 py-3"
                     type="text"
                     defaultValue={item.Link}
                     onChange={(e) => linkHandler(e)}
@@ -90,7 +88,7 @@ const Card = ({ cardData, newDataCollecter, setCardData }) => {
                       onChange={(e) => websiteEngHandler(e)}
                       // value={data.websiteNameENG}
                       placeholder="e.g. name"
-                      className="w-full h-9 border-solid border-2 border-white-600 p-2"
+                      className="w-full h-[40px] border-solid border-2 border-white-600 px-2 py-3"
                       type="text"
                     />
                   </div>
@@ -100,12 +98,12 @@ const Card = ({ cardData, newDataCollecter, setCardData }) => {
                       onChange={(e) => websiteArHandler(e)}
                       placeholder="e.g. name"
                       defaultValue={item.websiteNameAR}
-                      className="w-full h-9 border-solid border-2 border-white-600 p-2"
+                      className="w-full h-[40px] border-solid border-2 border-white-600 px-2 py-3"
                       type="text"
                     />
                   </div>
                 </div>
-                <div className="flex flex-col justify-center w-full  ">
+                <div className="flex flex-col justify-center w-full">
                   <label className="block text-sm font-medium leading-6 text-gray-900 sm:pt-1.5">
                     Image
                   </label>
@@ -117,7 +115,7 @@ const Card = ({ cardData, newDataCollecter, setCardData }) => {
                       <input
                         onChange={(e) => imageHandler(e)}
                         type="file"
-                        className="block w-full min-w-0 flex-1 border-0 py-1.5 px-1.5 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 sm:text-sm sm:leading-6"
+                        className="block w-full min-w-0 flex-1 border-0 py-1.5 px-1.5 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 sm:text-sm sm:leading-6 h-[40px] "
                       />
                     </div>
                   </div>
